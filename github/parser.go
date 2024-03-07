@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/recode-sh/recode/entities"
+	"github.com/VidwaDeSeram/IncentiCode_recode/entities"
 	giturls "github.com/whilp/git-urls"
 )
 
@@ -43,7 +43,7 @@ func ParseRepositoryName(
 	repositoryNameAsURL, err := giturls.Parse(repositoryName)
 
 	if err != nil {
-		// Handle https://github.com/recode-sh/recode.git
+		// Handle https://github.com/VidwaDeSeram/IncentiCode_recode.git
 		repositoryNameAsURL, err = url.Parse(repositoryName)
 	}
 

@@ -1,4 +1,4 @@
-module github.com/recode-sh/recode
+module github.com/VidwaDeSeram/IncentiCode_recode
 
 go 1.18
 

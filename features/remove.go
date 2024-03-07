@@ -3,9 +3,9 @@ package features
 import (
 	"fmt"
 
-	"github.com/recode-sh/recode/actions"
-	"github.com/recode-sh/recode/entities"
-	"github.com/recode-sh/recode/stepper"
+	"github.com/VidwaDeSeram/IncentiCode_recode/actions"
+	"github.com/VidwaDeSeram/IncentiCode_recode/entities"
+	"github.com/VidwaDeSeram/IncentiCode_recode/stepper"
 )
 
 type RemoveInput struct {
