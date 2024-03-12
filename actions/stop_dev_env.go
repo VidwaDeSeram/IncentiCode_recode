@@ -1,8 +1,8 @@
 package actions
 
 import (
-	"github.com/VidwaDeSeram/IncentiCode_recode/entities"
-	"github.com/VidwaDeSeram/IncentiCode_recode/stepper"
+	"github.com/recode-sh/recode/entities"
+	"github.com/recode-sh/recode/stepper"
 )
 
 func StopDevEnv(

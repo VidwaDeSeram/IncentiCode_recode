@@ -1,6 +1,6 @@
 package entities
 
-import "github.com/VidwaDeSeram/IncentiCode_recode/stepper"
+import "github.com/recode-sh/recode/stepper"
 
 type CloudService interface {
 	CreateRecodeConfigStorage(stepper.Stepper) error
